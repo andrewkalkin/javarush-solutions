@@ -21,7 +21,6 @@ public class CashMachine {
             do {
                 op = ConsoleHelper.askOperation();
                 CommandExecutor.execute(op);
-                System.out.println("Hello");
 
             } while (op != Operation.EXIT);
         } catch (InterruptOperationException e) {
