@@ -14,6 +14,8 @@ public class CashMachine {
 
         try {
 
+            System.out.println("That's good! I'm in try block!!!");
+
             Operation op;
 
             CommandExecutor.execute(Operation.LOGIN);
